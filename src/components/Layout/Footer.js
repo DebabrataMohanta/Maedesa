@@ -5,13 +5,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Box, Typography } from "@mui/material";
-import Link from '@mui/material/Link';
 
-
-const preventDefault = (event: React.SyntheticEvent) => event.preventDefault();
 const Footer = () => {
-
- 
   return (
     <>
       <Box
@@ -31,17 +26,27 @@ const Footer = () => {
               transition: "all 400ms",
             },
           }}
-          onClick={preventDefault}
         >
           {/* icons */}
-          <Link href="https://www.linkedin.com/company/maedesa/?viewAsMember=true" underline="none">
-          <LinkedIn/>
-</Link>
+          <a href="https://www.linkedin.com/company/maedesa/?viewAsMember=true" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <LinkedIn />
+          </a>
           
-          <InstagramIcon />
-          <TwitterIcon />
-          <GitHubIcon />
-          <YouTubeIcon />
+          <a href="https://www.instagram.com/your-account" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <InstagramIcon />
+          </a>
+          
+          <a href="https://twitter.com/your-handle" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <TwitterIcon />
+          </a>
+          
+          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <GitHubIcon />
+          </a>
+          
+          <a href="https://www.youtube.com/your-channel" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <YouTubeIcon />
+          </a>
         </Box>
         <Typography
           variant="h5"
