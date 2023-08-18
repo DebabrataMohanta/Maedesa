@@ -32,7 +32,7 @@ const Footer = () => {
             <LinkedIn />
           </a>
           
-          <a href="https://www.instagram.com/your-account" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+          <a href="https://instagram.com/maedesa_info?" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
             <InstagramIcon />
           </a>
           
