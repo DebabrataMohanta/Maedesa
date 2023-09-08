@@ -23,7 +23,7 @@ const Header = () => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography
-        color={"goldenrod"}
+        color={"red"}
         variant="h6"
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
@@ -66,7 +66,7 @@ const Header = () => {
               }}
               onClick={handleDrawerToggle}
             >
-              <MenuIcon />
+              <MenuIcon style={{color:'white'}}/>
             </IconButton>
             <Typography
               color={"goldenrod"}
