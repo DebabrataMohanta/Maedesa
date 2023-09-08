@@ -25,7 +25,7 @@ const Home = () => {
         </div>
         <div className="headerContainer">
         <Link to="/hiring">
-            <button style={{color:'white', backgroundColor:'red'}}>Hiring </button>
+            <button style={{color:'black', backgroundColor:'yellow'}}>Hiring </button>
           </Link>
         </div>
         
