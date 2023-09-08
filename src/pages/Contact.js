@@ -51,7 +51,7 @@ import {
                    sx={{ bgcolor: "black", color: "white" }}
                    align="center"
                  >
-                   Contact Details
+                   Contact Details(Corporate Office)
                  </TableCell>
                </TableRow>
              </TableHead>

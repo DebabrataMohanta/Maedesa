@@ -1,7 +1,7 @@
 import React from "react";
 import LinkedIn from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Box, Typography } from "@mui/material";
@@ -36,8 +36,8 @@ const Footer = () => {
             <InstagramIcon />
           </a>
           
-          <a href="https://twitter.com/your-handle" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-            <TwitterIcon />
+          <a href="https://www.facebook.com/profile.php?id=61550089995110" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <FacebookIcon />
           </a>
           
           <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
@@ -56,7 +56,7 @@ const Footer = () => {
             },
           }}
         >
-          All Rights Reserved &copy; 2023 Maedesa Info
+          All Rights Reserved &copy; 2023 Maedesa
         </Typography>
       </Box>
     </>

@@ -2,9 +2,11 @@ import React from "react";
 import Layout from "./../components/Layout/Layout";
 import { Link } from "react-router-dom";
 import Banner from "../images/banner.jpg";
+
 import "../styles/HomeStyles.css";
 import Menu from "./Menu1";
 import About from "./About1";
+
 
 const Home = () => {
   return (
@@ -18,9 +20,15 @@ const Home = () => {
           
            </p>
           <Link to="/menu">
-            <button style={{color:'white', backgroundColor:'red'}}>Click For More</button>
+            <button style={{color:'white', backgroundColor:'red' }}>Click For More</button>
           </Link>
         </div>
+        <div className="headerContainer">
+        <Link to="/hiring">
+            <button style={{color:'white', backgroundColor:'red'}}>Hiring </button>
+          </Link>
+        </div>
+        
       </div><br></br>
       <About/>
       <Menu/>
