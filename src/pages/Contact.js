@@ -51,7 +51,7 @@ import {
                    sx={{ bgcolor: "black", color: "white" }}
                    align="center"
                  >
-                   Contact Details(Corporate Office)
+                   Contact Details
                  </TableCell>
                </TableRow>
              </TableHead>
@@ -59,14 +59,14 @@ import {
                <TableRow>
                  <TableCell>
                    <SupportAgentIcon sx={{ color: "red", pt: 1 }} />MAEDESA INFO PRIVATE LIMITED<br></br>
-                         Dlf Cyber City,
-                         Idco Info Park, Technology Corridor, Chandaka Industrial Estate, 
-                         Patia, Bhubaneswar, Odisha 751024
+                         At/Po-Asana,
+                         Via-Bisoi, Dist-Mayurbhanj,Pin-757033, 
+                         Odisha
                  </TableCell>
                </TableRow>
                <TableRow>
                  <TableCell>
-                   <MailIcon sx={{ color: "skyblue", pt: 1 }} /> info@maedesa.com
+                   <MailIcon sx={{ color: "skyblue", pt: 1 }} /> deb@maedesa.com
                  </TableCell>
                </TableRow>
                <TableRow>
