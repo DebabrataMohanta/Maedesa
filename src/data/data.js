@@ -38,7 +38,7 @@ export const MenuList = [
   {
     name: "Website Design",
     description:
-      "Put a face to your business with our excellent developers.",
+     "Put a face to your business with our excellent developers.A business website will help you to protect your brand identity by owning your own web address, website and domain. Thus you are not giving up control of your brand to a third party website and their advertisements.", 
     image: Gujrati,
     
   },

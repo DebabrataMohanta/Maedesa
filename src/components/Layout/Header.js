@@ -84,13 +84,13 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/menu"}>Menu</NavLink>
+                  <NavLink to={"/menu"}>Services</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/about"}>About</NavLink>
+                  <NavLink to={"/about"}>About Us</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/contact"}>Contact</NavLink>
+                  <NavLink to={"/contact"}>Contact Us</NavLink>
                 </li>
       
               </ul>
