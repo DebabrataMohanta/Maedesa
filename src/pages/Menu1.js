@@ -9,10 +9,11 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
+import InquiryForm from "../components/InquiryForm";
 
 const Menu = () => {
   return (
-    
+    <div>
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center",color:"blue" }}>
         {MenuList.map((menu) => (
           <Card sx={{ maxWidth: "390px", display: "flex", m: 2 }}>
@@ -32,7 +33,10 @@ const Menu = () => {
             </CardActionArea>
           </Card>
         ))}
-      </Box>
+      </Box>       
+       {/* <InquiryForm/> */}
+       </div>
+
     
   );
 };

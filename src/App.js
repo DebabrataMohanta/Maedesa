@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Menu from "./pages/Menu";
 import Pagenotfound from "./pages/Pagenotfound";
 import Hiring from "./pages/Hiring";
+import InquiryForm from "./components/InquiryForm";
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/hiring" element={<Hiring/>} />
+          <Route path="/inquiry" element={<InquiryForm/>} />
           <Route path="*" element={<Pagenotfound />} />
         </Routes>
       </BrowserRouter>
